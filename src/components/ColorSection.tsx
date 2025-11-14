@@ -10,8 +10,18 @@ const ColorSection: React.FC = () => {
   ];
 
   return (
-    <section id="color" className="min-h-screen bg-zinc-900 flex items-center justify-center">
-      <div className="max-w-7xl mx-auto px-6 py-20 w-full">
+    <section id="color" className="min-h-screen bg-zinc-900 flex items-center justify-center relative overflow-hidden">
+      <div className="absolute inset-0">
+        <img
+          src="/images/29ht.avif"
+          alt="Background"
+          className="w-full h-full object-cover opacity-20"
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-zinc-900/70"></div>
+      </div>
+      
+      <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 w-full">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
