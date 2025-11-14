@@ -8,10 +8,10 @@ const MatterSection: React.FC = () => {
         <img
           src="/images/39jf.avif"
           alt="Background"
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover opacity-10"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-zinc-800/70"></div>
+        <div className="absolute inset-0 bg-zinc-800/80"></div>
       </div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-20">
