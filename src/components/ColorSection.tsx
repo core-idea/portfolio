@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const ColorSection: React.FC = () => {
   const colors = [
-    { name: 'FRONTEND', code: '01', description: 'REACT & MODERN UI', bg: 'bg-white', text: 'text-zinc-900' },
-    { name: 'BACKEND', code: '02', description: 'APIS & DATABASES', bg: 'bg-zinc-900', text: 'text-white' },
-    { name: 'BLOCKCHAIN', code: '03', description: 'TOKENS & SMART CONTRACTS', bg: 'bg-rose-300', text: 'text-zinc-900' },
-    { name: 'DEVOPS', code: '04', description: 'DEPLOYMENT & SCALING', bg: 'bg-zinc-500', text: 'text-white' }
+    { name: 'FRONTEND', code: '01', description: 'REACT & MODERN UI', bg: 'bg-zinc-500', text: 'text-white' },
+    { name: 'BACKEND', code: '02', description: 'APIS & DATABASES', bg: 'bg-zinc-600', text: 'text-white' },
+    { name: 'BLOCKCHAIN', code: '03', description: 'TOKENS & SMART CONTRACTS', bg: 'bg-zinc-700', text: 'text-white' },
+    { name: 'DEVOPS', code: '04', description: 'DEPLOYMENT & SCALING', bg: 'bg-zinc-800', text: 'text-white' }
   ];
 
   return (
