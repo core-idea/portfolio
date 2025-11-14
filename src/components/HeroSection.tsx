@@ -6,8 +6,8 @@ const HeroSection: React.FC = () => {
     <section id="hero" className="min-h-screen bg-zinc-900 flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=1920&h=1080&fit=crop&crop=center"
-          alt="Premium hoodie silhouette"
+          src="/images/desd.avif"
+          alt="Background"
           className="w-full h-full object-cover opacity-30 grayscale"
           loading="lazy"
         />
