@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     { id: 'form', label: 'Projects' },
     { id: 'matter', label: 'Tech Stack' },
     { id: 'color', label: 'Skills' },
-    { id: 'collection', label: 'Token' },
+    // { id: 'collection', label: 'Token' },
     { id: 'production', label: 'Development' }
   ];
 
