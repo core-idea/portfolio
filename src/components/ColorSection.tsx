@@ -10,8 +10,8 @@ const ColorSection: React.FC = () => {
   ];
 
   return (
-    <section id="color" className="min-h-screen bg-zinc-900">
-      <div className="max-w-7xl mx-auto px-6 py-20">
+    <section id="color" className="min-h-screen bg-zinc-900 flex items-center justify-center">
+      <div className="max-w-7xl mx-auto px-6 py-20 w-full">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
