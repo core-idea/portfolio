@@ -13,15 +13,24 @@ const FormSection: React.FC = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-6xl font-bold tracking-[0.2em] text-white mb-8">
-              PROJECTS
+              UPCOMING PROJECTS
             </h2>
             <div className="w-24 h-px bg-zinc-400 mb-8"></div>
             
-            <div className="space-y-6 text-lg md:text-xl leading-relaxed text-zinc-300 font-light tracking-wide">
-              <p>Code that became products.</p>
-              <p>Projects are created according to architectural principles: scalability, balance, performance, innovation.</p>
-              <p>Not design determines success, but architecture.</p>
-              <p>This is not just code — it is a digital structure assembled around a vision.</p>
+            <div className="space-y-8 text-base md:text-lg leading-relaxed text-zinc-300 font-light tracking-wide">
+              <div className="border-l-2 border-zinc-600 pl-6 space-y-3">
+                <h3 className="text-xl md:text-2xl font-semibold text-white tracking-wide">ARG Game Launch</h3>
+                <p className="text-zinc-400 text-sm">Launch Date: November 20, 2025</p>
+                <p>An immersive alternate reality game where I'm recruiting a team of two specialists to develop a world-class application.</p>
+                <p>Looking for talent in OSINT, reverse engineering, scripting, and exploit development. This is more than a game — it's a gateway to building something extraordinary.</p>
+              </div>
+
+              <div className="border-l-2 border-zinc-600 pl-6 space-y-3">
+                <h3 className="text-xl md:text-2xl font-semibold text-white tracking-wide">Unrestricted LLM Service</h3>
+                <p className="text-zinc-400 text-sm">Launch Date: December 24, 2025</p>
+                <p>A cutting-edge AI service powered by an LLM with absolutely no restrictions.</p>
+                <p>No boundaries. No limitations. Pure intelligence unleashed.</p>
+              </div>
             </div>
           </motion.div>
           
@@ -33,15 +42,15 @@ const FormSection: React.FC = () => {
             className="grid grid-cols-2 gap-4"
           >
             <img
-              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=800&fit=crop&crop=center"
-              alt="Hoodie sleeve detail"
-              className="w-full h-64 object-cover grayscale"
+              src="/images/22.863.jpg"
+              alt="ARG Game Launch"
+              className="w-full h-64 object-cover"
               loading="lazy"
             />
             <img
-              src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&h=800&fit=crop&crop=center"
-              alt="Hood silhouette"
-              className="w-full h-64 object-cover grayscale mt-8"
+              src="/images/20.212.jpg"
+              alt="Unrestricted LLM Service"
+              className="w-full h-64 object-cover mt-8"
               loading="lazy"
             />
           </motion.div>

@@ -5,7 +5,7 @@ import PhilosophySection from '../components/PhilosophySection';
 import FormSection from '../components/FormSection';
 import MatterSection from '../components/MatterSection';
 import ColorSection from '../components/ColorSection';
-// import CollectionSection from '../components/CollectionSection';
+import CollectionSection from '../components/CollectionSection';
 import ProductionSection from '../components/ProductionSection';
 import FinalSection from '../components/FinalSection';
 import Footer from '../components/Footer';
@@ -19,7 +19,7 @@ const Home: React.FC = () => {
       <FormSection />
       <MatterSection />
       <ColorSection />
-      {/* <CollectionSection /> */}
+      <CollectionSection />
       <ProductionSection />
       <FinalSection />
       <Footer />
