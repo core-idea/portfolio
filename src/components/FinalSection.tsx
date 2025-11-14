@@ -6,7 +6,7 @@ const FinalSection: React.FC = () => {
     <section className="min-h-screen bg-black flex items-center justify-center relative">
       <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-900/50 to-black"></div>
       
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -14,8 +14,9 @@ const FinalSection: React.FC = () => {
           viewport={{ once: true }}
         >
           <div className="mb-12">
-            <div className="text-6xl md:text-8xl font-bold tracking-[0.3em] text-white mb-8 opacity-80">
-              OTTO ROTHENBURG
+            <div className="text-6xl md:text-8xl font-bold tracking-[0.3em] text-white mb-8 opacity-80 leading-tight">
+              <div>OTTO</div>
+              <div>ROTHENBURG</div>
             </div>
             <div className="w-32 h-px bg-zinc-600 mx-auto"></div>
           </div>

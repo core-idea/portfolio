@@ -14,14 +14,15 @@ const HeroSection: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/50 to-zinc-900/80"></div>
       </div>
       
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          <h1 className="text-6xl md:text-8xl font-bold tracking-[0.2em] text-white mb-8">
-            OTTO ROTHENBURG
+          <h1 className="text-6xl md:text-8xl font-bold tracking-[0.2em] text-white mb-8 leading-tight">
+            <div>OTTO</div>
+            <div>ROTHENBURG</div>
           </h1>
           <div className="w-24 h-px bg-zinc-400 mx-auto mb-8"></div>
           <h2 className="text-xl md:text-2xl tracking-[0.15em] text-zinc-300 mb-12 font-light">
