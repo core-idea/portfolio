@@ -8,10 +8,10 @@ const HeroSection: React.FC = () => {
         <img
           src="/images/desd.avif"
           alt="Background"
-          className="w-full h-full object-cover opacity-30 grayscale"
+          className="w-full h-full object-cover opacity-40 grayscale"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/50 to-zinc-900/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/40 to-zinc-900/70"></div>
       </div>
       
       <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
