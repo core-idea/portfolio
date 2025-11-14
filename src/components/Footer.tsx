@@ -9,10 +9,7 @@ const Footer: React.FC = () => {
             © 2025 OTTO ROTHENBURG
           </div>
           
-          <div className="flex items-center space-x-3">
-            <span className="text-zinc-400 text-sm tracking-wide">
-              Подписывайтесь
-            </span>
+          <div className="flex items-center">
             <a 
               href="https://x.com/OttoRothenburg" 
               target="_blank"
