@@ -10,8 +10,8 @@ const CollectionSection: React.FC = () => {
   ];
 
   return (
-    <section id="collection" className="min-h-screen bg-zinc-800 py-20">
-      <div className="max-w-7xl mx-auto px-6">
+    <section id="collection" className="min-h-screen bg-zinc-800 flex items-center justify-center">
+      <div className="max-w-7xl mx-auto px-6 py-20 w-full">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
