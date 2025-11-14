@@ -44,16 +44,8 @@ const Header: React.FC = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-zinc-900/80 backdrop-blur-sm border-b border-zinc-800">
       <nav className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <img 
-              src="/images/5hdj.png" 
-              alt="OTTO ROTHENBURG" 
-              className="h-8 md:h-10 w-auto cursor-pointer"
-              onClick={() => scrollToSection('hero')}
-            />
-            <span className="text-xl md:text-2xl font-bold tracking-[0.2em] text-white">
-              OTTO ROTHENBURG
-            </span>
+          <div className="text-2xl font-bold tracking-[0.2em] text-white">
+            OTTO ROTHENBURG
           </div>
 
           {/* Desktop Navigation */}
