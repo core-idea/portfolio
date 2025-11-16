@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Footer: React.FC = () => {
+  const [showWallet, setShowWallet] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const walletAddress = '2eRarYVDHruN7sDBH1QsUL96A9KEsBZxqtAQxYgak4jh';
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(walletAddress);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   return (
     <footer className="bg-black border-t border-zinc-800 py-8">
       <div className="max-w-7xl mx-auto px-6">
@@ -9,7 +19,35 @@ const Footer: React.FC = () => {
             © 2025 OTTO ROTHENBURG
           </div>
           
-          <div className="flex items-center">
+          <div className="flex items-center space-x-6">
+            {/* Donate Button */}
+            <div className="relative">
+              <button
+                onClick={() => setShowWallet(!showWallet)}
+                className="text-zinc-400 hover:text-white transition-colors duration-300 text-sm tracking-wide uppercase font-medium"
+              >
+                Donate
+              </button>
+              
+              {showWallet && (
+                <div className="absolute bottom-full right-0 mb-2 bg-zinc-900 border border-zinc-700 rounded-lg p-4 shadow-xl min-w-[320px]">
+                  <div className="text-xs text-zinc-400 mb-2">Solana Wallet:</div>
+                  <div className="flex items-center space-x-2">
+                    <div className="text-xs text-white font-mono bg-zinc-800 px-3 py-2 rounded break-all flex-1">
+                      {walletAddress}
+                    </div>
+                    <button
+                      onClick={handleCopy}
+                      className="bg-zinc-700 hover:bg-zinc-600 text-white px-3 py-2 rounded text-xs transition-colors duration-300"
+                    >
+                      {copied ? '✓' : 'Copy'}
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* X Icon */}
             <a 
               href="https://x.com/OttoRothenburg" 
               target="_blank"

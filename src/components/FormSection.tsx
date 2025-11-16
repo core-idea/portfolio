@@ -30,7 +30,7 @@ const FormSection: React.FC = () => {
             <div className="space-y-8 text-base md:text-lg leading-relaxed text-zinc-300 font-light tracking-wide">
               <div className="border-l-2 border-zinc-600 pl-6 space-y-3">
                 <h3 className="text-xl md:text-2xl font-semibold text-white tracking-wide">ARG Game Launch</h3>
-                <p className="text-zinc-400 text-sm">Launch Date: November 20, 2025</p>
+                <p className="text-zinc-400 text-sm">Launch Date: November 21, 2025</p>
                 <p>An immersive alternate reality game where I'm recruiting a team of two specialists to develop a world-class application.</p>
                 <p>Looking for talent in OSINT, reverse engineering, and scripting. This is more than a game — it's a gateway to building something extraordinary.</p>
               </div>
